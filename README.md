@@ -39,4 +39,4 @@ Weights for Yolov4 model [yolov4](https://drive.google.com/file/d/1Gtz_zl7HYYr6f
 
 Weights for Yolov4-tiny model [yolov4-tiny](https://drive.google.com/file/d/13NUCCp65LDONRDFy2DRf_gkXvq4DLfW-/view?usp=sharing)
 
-Weights for Yolov4-tiny-3l model [yolov4-tiny-3l](hhttps://drive.google.com/file/d/1P1i_-4Pia5IWZoFdfjUM8DclNPuhmWI2/view?usp=sharing)
+Weights for Yolov4-tiny-3l model [yolov4-tiny-3l](https://drive.google.com/file/d/1P1i_-4Pia5IWZoFdfjUM8DclNPuhmWI2/view?usp=sharing)
