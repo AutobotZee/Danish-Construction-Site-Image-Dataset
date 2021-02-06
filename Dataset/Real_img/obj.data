@@ -1,0 +1,5 @@
+classes = 4
+train = data/Real_img/train.txt
+valid = data/rft_train.txt
+names = data/Real_img/obj.names
+backup = backup/
