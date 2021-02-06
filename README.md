@@ -3,9 +3,6 @@ Construction industry posses an interesting application are for the Computer Vis
 
 The Weights are provided in the link below along with the dataset.
 
-The link for Downloading the Dataset:
-https://drive.google.com/drive/folders/1xz1QVWeqc8bx4wgBXsdpdUI-NW9dVzVL?usp=sharing
-
 ## Prequisite.
 Annotations are performed using [cvat](https://github.com/openvinotoolkit/cvat) annotation tool. Additional data annotation can be performed using the same tool.
 framework used for training is Darknet avaialble on [Darknet](https://github.com/AlexeyAB/darknet) which is also the original Yolov4 driectory. 
