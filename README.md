@@ -8,12 +8,12 @@ https://drive.google.com/drive/folders/1xz1QVWeqc8bx4wgBXsdpdUI-NW9dVzVL?usp=sha
 
 ## Prequisite.
 Annotations are performed using [cvat](https://github.com/openvinotoolkit/cvat) annotation tool. Additional data annotation can be performed using the same tool.
-framework used for training is Darknet avaialble on [Darknet](https://github.com/AlexeyAB/darknet) which is also a original Yolov4 driectory. 
+framework used for training is Darknet avaialble on [Darknet](https://github.com/AlexeyAB/darknet) which is also the original Yolov4 driectory. 
 
 ## Image Data with annotation
 The Data set is split into 5 main folders. Images are annotated in Yolo1.1 format and 
 1. **Real_images**: Sensor Images from camera.
-2. **Obj_train_data**: Web Images scraped form [idt tool](https://github.com/deliton/idt)
+2. **Obj_train_data**: Web Images scraped form web using [idt tool](https://github.com/deliton/idt).
 3. **Batch_web_img**: A selected bag of web images of 200 Images
 4. **rft**: Test images from a rooftop renovation project. Made for testing on trained models.
 5. **HD_test**: High resolution Images for checking model accuracy.
