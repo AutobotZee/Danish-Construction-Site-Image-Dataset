@@ -8,6 +8,7 @@ https://drive.google.com/drive/folders/1xz1QVWeqc8bx4wgBXsdpdUI-NW9dVzVL?usp=sha
 
 ## Prequisite.
 Annotations are performed using [cvat](https://github.com/openvinotoolkit/cvat) annotation tool. Additional data annotation can be performed using the same tool.
+framework used for training is Darknet avaialble on [Darknet](https://github.com/AlexeyAB/darknet) which is also a original Yolov4 driectory. 
 
 ## Image Data with annotation
 The Data set is split into 5 main folders. Images are annotated in Yolo1.1 format and 
@@ -19,7 +20,6 @@ The Data set is split into 5 main folders. Images are annotated in Yolo1.1 forma
 
 ## data and obj files 
 The data files contains configurations for running the model configurations on differet training dataset and validation set.
-framework used for training is Darknet avaialble on [Darknet](https://github.com/AlexeyAB/darknet)
 
 1. To train data on sensor images only use obj.data
 2. To train data on sensor and web images only use obj_itr2.data
@@ -31,4 +31,12 @@ xval.txt . To check the performance of data on a unseen datase from a different 
 
 ## Uning Pre-Trainined models for demo
 The pretrainned models can be used to detect objects in stream and images from construction site
-The default class data is shown in obj.names file. 
+The default class data is shown in obj.names file.
+Configuration files can be used from cfg folder to load desireed model network with huper parameters.
+Pre trained weights are given in the link below.
+
+Weights for Yolov4 model [yolov4](https://drive.google.com/file/d/1Gtz_zl7HYYr6fv4F4RWYyTY0rkvHONMb/view?usp=sharing)
+
+Weights for Yolov4-tiny model [yolov4-tiny](https://drive.google.com/file/d/13NUCCp65LDONRDFy2DRf_gkXvq4DLfW-/view?usp=sharing)
+
+Weights for Yolov4-tiny-3l model [yolov4-tiny-3l](hhttps://drive.google.com/file/d/1P1i_-4Pia5IWZoFdfjUM8DclNPuhmWI2/view?usp=sharing)
