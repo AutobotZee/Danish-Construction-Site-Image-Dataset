@@ -18,6 +18,9 @@ The Data set is split into 5 main folders. Images are annotated in Yolo1.1 forma
 4. **rft**: Test images from a rooftop renovation project. Made for testing on trained models.
 5. **HD_test**: High resolution Images for checking model accuracy.
 
+While using the folders make sure you have all this folder in your **\data** folder while deploying it on default darknet environmnet.
+
+
 ## data and obj files 
 The data files contains configurations for running the model configurations on differet training dataset and validation set.
 
